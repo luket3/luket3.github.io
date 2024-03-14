@@ -1,1 +1,1 @@
-# luket3.github.io
+this is a website for my digital platforms course

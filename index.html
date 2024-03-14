@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 
-<html, lang = "en">
+<html lang = "en">
     <head>
-        <title>website</title>
+        <title>task2-11</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:i:400|Noto+Serif|Raleway">
+        <link rel = "stylesheet" href = "prac2.css">
     </head>
     <body>
-        <h1>
-            heading
-        </h1>
-        <p1>
-            paragraph
-        </p1>
+        <div id = "content" class = "lizard">
+            <h1>
+                Layout like a lizard
+            </h1>
+        </div>
+        <div id = "wrapper">
+            <div id = "leftDiv" class = "bottom">
+                <h2>
+                    This div is <br />
+                    floated left
+                </h2>
+                <p>
+                    Any content that <br />
+                    overflows the <br />
+                    bottom of the div <br />
+                    will scroll
+                </p>
+                <ul>
+                    <li>A list</li>
+                    <li>Containing</li>
+                    <li>A</li>
+                    <li>Number</li>
+                    <li>Of</li>
+                    <li>Items</li>
+                    <li>That</li>
+                    <li>Will</li>
+                    <li>Overflow</li>
+                </ul>
+            </div>
+            <div id = "rightDiv" class = "bottom">
+                <p>
+                    The red box is 1000px wide by 100px high, and <br />
+                    positioned 100px each from the top and the left of <br />
+                    this box. Its overflow is hidden.
+                </p>
+                <div id = "redBox"></div>
+                <p>
+                    The total width of this page is 600px. <br />
+                    It is centered. <br />
+                    There is 10x of margin between the divs. <br />
+                    Both this and the left div are 400px tall.
+                </p>
+            </div>
+        </div>
     </body>
 </html>

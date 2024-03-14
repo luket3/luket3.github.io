@@ -1,0 +1,122 @@
+h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+h4 {
+    font-family: "Raleway";
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    font-family: serif;
+}
+
+a {
+    color: darkgreen;
+}
+
+del {
+    color: grey;
+}
+
+mark {
+    color: darkblue;
+    background-color: pink;
+}
+
+h2 {
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+}
+
+pre {
+    font-family: monospace;
+}
+
+body {
+    background-color: #DCF5F5;
+    background-image: url('cross.png');
+    font-family: "Noto Serif";
+}
+
+#content {
+    background-color: white;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+span.blue {
+    color: blue;
+}
+
+span.fancy {
+    font-family: cursive;
+}
+
+i {
+    color: #BFCFD4;
+    text-align: center;
+}
+
+blockquote {
+    color: dimgray;
+    font-family: "Raleway";
+    line-height: 1.5;
+    word-spacing: 0.2em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#icon {
+    text-align: center;
+}
+
+div.lizard {
+    box-sizing: border-box;
+    width: 600px;
+    margin: auto;
+}
+
+#wrapper {
+    width: 600px;
+    height: 450px;
+    margin: auto;
+}
+
+div.bottom {
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+#leftDiv {
+    width: 190px;
+    overflow: scroll;
+    border-radius: 8px 0px 0px 8px;
+}
+
+#rightDiv {
+    width: 400px;
+    margin-left: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#redBox {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
